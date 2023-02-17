@@ -21,8 +21,8 @@ function Details() {
 function Social() {
     return (
         <div className="social-buttons">
-            <button className="email"><img src="/icons8-mail-50.png"/>Email</button>
-            <button className="linkedin">LinkedIn</button>
+            <button className="email"><img src="/icons8-mail-50.png"/><span>Email</span></button>
+            <button className="linkedin"><img src="/icons8-linkedin-24.png"/><span>LinkedIn</span></button>
         </div>
     )
 }
