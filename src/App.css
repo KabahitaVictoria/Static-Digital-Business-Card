@@ -31,6 +31,7 @@ body {
   width: 57%;
 }
 
+/* INFO COMPONENT */
 .avatar {
   width: 100%;
   background-color: #33a17c;
@@ -39,7 +40,7 @@ body {
 }
 
 .avatar img {
-  width: 250px;
+  width: 80%;
 }
 
 .name {
@@ -111,6 +112,7 @@ h2, h3 {
   width: 15px;
 }
 
+/* ABOUT COMPONENT */
 .about {
   display: flex;
   flex-direction: column;
@@ -137,6 +139,7 @@ h2, h3 {
   color: white;
 }
 
+/* SOCIAL COMPONENT */
 .social {
   background-color: #161619;
   width: 57%;
@@ -154,4 +157,59 @@ h2, h3 {
 
 .social a {
   color: #918E9B;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 600px) {
+  .App {
+    width: 100%;
+  }
+
+  .info, .about, .social {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .App {
+    width: 100%;
+    padding: 0;
+  }
+
+  .info, .about, .social {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .profession {
+    font-size: .8rem;
+  }
+
+  .social-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-buttons button {
+    padding: 10px 0;
+    font-size: .7rem;
+    margin: 5px 0;
+  }
+
+  .social-buttons img {
+    display: none;
+  }
+
+  .social div {
+    width: 80%;
+    font-size: .8rem;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
