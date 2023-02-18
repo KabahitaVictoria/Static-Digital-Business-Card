@@ -4,8 +4,8 @@ export function Social() {
     return (
         <div className="social">
             <div>
-                <a href="#">Twitter</a>
-                <a href="#">GitHub</a>
+                <a href="https://twitter.com/ToriKabahita">Twitter</a>
+                <a href="https://github.com/KabahitaVictoria">GitHub</a>
             </div>
         </div>
     )
