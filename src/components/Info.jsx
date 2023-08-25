@@ -12,7 +12,7 @@ function Details() {
     return (
         <div className="details">
             <h2 className="name">Victoria Kabahita</h2>
-            <h3 className="profession thin">Frontend Web Developer</h3>
+            <h3 className="profession thin">Web Developer</h3>
             <p className="website thin">victoriakabahita.website</p>
         </div>
     )
